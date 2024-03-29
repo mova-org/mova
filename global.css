@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-silver: #bfbfbf;
+  --black: #282828;
+
+  /* Gaps */
+  --gap-base: -100px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+  --padding-11xl: 30px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+}
