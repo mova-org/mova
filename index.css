@@ -9,11 +9,13 @@
   flex-shrink: 0;
   margin-right: 20px;
 }
+
 .logo-horizontal-icon {
   width: 251px;
   position: relative;
   height: 60px;
 }
+
 .hp-2-meet-mova-header {
   /* align-self: stretch; */
   display: flex;
@@ -51,6 +53,9 @@
   flex-direction: column;
   gap: var(--gap-base);
 }
+
+
+
 .hp-2-blck-hdr,
 .hp-2-blck1 {
   align-self: stretch;
@@ -63,6 +68,20 @@
   flex-direction: column;
   padding: var(--padding-11xl);
 }
+
+/* .hp-2-blck1:hover{
+  animation-name: upscale;
+  animation-duration: 0.7s;
+} */
+
+@keyframes upscale {
+  from {scale:1;}
+  to {scale: 1.05; padding: 15px;}
+}
+
+
+
+
 .hp-2-blck {
   flex: 1;
   height: 690px;
