@@ -75,10 +75,15 @@
 } */
 
 @keyframes upscale {
-  from {scale:1;}
-  to {scale: 1.05; padding: 15px;}
+  from {scale:1; padding: 30px;}
+  to {scale: 1.03; padding: 15px;}
 }
 
+
+@keyframes scale {
+  from {scale: 1.03; padding: 15px;}
+  to {scale: 1; padding: 30px;}
+}
 
 
 
