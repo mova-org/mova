@@ -15,13 +15,9 @@
 }
 
 #footer{
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  height: 270px;
-  padding-top: 100px;
   padding-left: 30px;
-
+  gap:30px;
+  row-gap: 10px;
 }
 
 
