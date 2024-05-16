@@ -2,6 +2,7 @@ body {
   margin: 0px;
   line-height: normal;
   background: #fcfcfc;
+  overflow-x: none;
 }
 
 :root {

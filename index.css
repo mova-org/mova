@@ -1,4 +1,30 @@
 
+
+#firstWind{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.mainLogo{
+  padding-bottom: 10%;
+  padding-top: 15%;
+  
+}
+
+#footer{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 270px;
+  padding-top: 100px;
+  padding-left: 30px;
+
+}
+
+
 .b {
   /* max-width: 699px;
   min-width: 100px; */
@@ -67,13 +93,19 @@
   background-color: var(--color-silver);
   flex-direction: column;
   padding: var(--padding-11xl);
+
+  transition: all 200ms ease-in-out;
 }
 
-/* .hp-2-blck1:hover{
-  animation-name: upscale;
-  animation-duration: 0.7s;
-} */
+.hp-2-blck1:hover{
 
+  
+  scale:1.03; 
+  /* padding: 30px; */
+  /* animation-name: upscale;
+  animation-duration: 0.7s; */
+}
+/* 
 @keyframes upscale {
   from {scale:1; padding: 30px;}
   to {scale: 1.03; padding: 15px;}
@@ -83,7 +115,7 @@
 @keyframes scale {
   from {scale: 1.03; padding: 15px;}
   to {scale: 1; padding: 30px;}
-}
+} */
 
 
 
