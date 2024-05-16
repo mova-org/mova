@@ -4,41 +4,62 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   width: 100%;  
+  height: 500%;
 
 }
 
 .mainLogo{
   display: flex;
   align-self: center;
-  padding-bottom: 10%;
-  padding-top: 15%;
+  justify-self: center;
+  /* padding-bottom: 10%;
+  padding-top: 15%; */
 
   /* padding-left: 0px;
   padding-right: 0px; */
   
   max-width: 300px;
   max-height: 254px;
+
+  min-width: 150px;
+  min-height: 128px;
+
+  width: 100%; /* Ensures the image scales to the width of its container */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 #footer{
+  padding-top: 120px;
+  padding-bottom: 120px;
   padding-left: 30px;
   gap:30px;
   row-gap: 10px;
-
+  bottom: 10px;
 }
 
 
 .b {
-  /* max-width: 699px;
-  min-width: 100px; */
-  position: relative;
-  line-height: 120%;
-  display: flex;
-  align-items: flex-end;
-  flex-shrink: 0;
+  /* align-items: flex-end; */
+  /* flex-shrink: 0; */
+  /* position: relative; */
+  /* line-height: 120%; */
+  
+  /* display: block;
+  margin-right: 20px;
+  width: auto;
+  height: auto; */
+
+
+  width: 100%; /* Ensures the image scales to the width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 699px; /* Sets the maximum width of the image */
+  min-width: 100px; /* Sets the minimum width of the image */
   margin-right: 20px;
 }
+
+
 
 .logo-horizontal-icon {
   width: 251px;
@@ -102,14 +123,13 @@
   transition: all 200ms ease-in-out;
 }
 
-.hp-2-blck1:hover{
-
-  
+.hp-2-blck1:hover{  
   scale:1.03; 
   /* padding: 30px; */
   /* animation-name: upscale;
   animation-duration: 0.7s; */
 }
+
 /* 
 @keyframes upscale {
   from {scale:1; padding: 30px;}
@@ -156,7 +176,7 @@
   padding: var(--padding-mini);
   box-sizing: border-box;
 }
-.hp-2-blck-empty,
+
 .hp-2-blck2,
 .hp-2-bnt-clmn-2 {
   flex: 1;
@@ -174,6 +194,8 @@
 .hp-2-blck-empty {
   position: relative;
   height: 230px;
+  width: 100%;
+  padding-top: 30px;
 }
 .hp-2-bnt,
 .hp-2-bnt-clmn-3 {
