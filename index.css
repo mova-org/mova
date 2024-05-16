@@ -4,21 +4,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  width: 100%;  
 
 }
 
 .mainLogo{
+  display: flex;
+  align-self: center;
   padding-bottom: 10%;
   padding-top: 15%;
+
+  /* padding-left: 0px;
+  padding-right: 0px; */
   
+  max-width: 300px;
+  max-height: 254px;
 }
 
 #footer{
   padding-left: 30px;
   gap:30px;
   row-gap: 10px;
-  
+
 }
 
 
@@ -37,6 +44,7 @@
   width: 251px;
   position: relative;
   height: 60px;
+  padding-top: 15px;
 }
 
 .hp-2-meet-mova-header {
