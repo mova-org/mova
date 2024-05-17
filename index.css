@@ -6,7 +6,7 @@
   align-items: center;
   
   width: 100%;  
-  height: 500%;
+  height: 100%;
 
 }
 
@@ -15,19 +15,22 @@
   align-self: center;
   justify-self: center;
   /* padding-bottom: 10%;
-  padding-top: 15%; */
+   */
 
+   padding-top: 25%;
+   padding-bottom: 25%;
   /* padding-left: 0px;
   padding-right: 0px; */
-  
-  max-width: 300px;
+
+  width: 100%; 
+  height: auto; 
+
+  max-width: 250px;
   max-height: 254px;
 
   min-width: 150px;
   min-height: 128px;
 
-  width: 100%; /* Ensures the image scales to the width of its container */
-  height: auto; /* Maintains the aspect ratio */
 }
 
 #footer{
@@ -47,32 +50,41 @@
   /* line-height: 120%; */
   
   /* display: block;
-  margin-right: 20px;
+  
   width: auto;
   height: auto; */
 
-
-  width: 100%; /* Ensures the image scales to the width of its container */
-  height: auto; /* Maintains the aspect ratio */
-  max-width: 699px; /* Sets the maximum width of the image */
-  min-width: 100px; /* Sets the minimum width of the image */
+  margin-right: 3%;
+  width: 100%; 
+  height: auto; 
+/*   
   margin-right: 20px;
+
+  max-width: 550px;
+  max-height: 100px;
+
+  min-width: 50%;
+  min-height: 100px; */
+
 }
 
 
 
 .logo-horizontal-icon {
-  width: 251px;
-  position: relative;
-  height: 60px;
-  padding-top: 15px;
+  width: 50%;
+  /* position: relative; */
+  height: auto;
+  /* padding-top: 10px; */
+
+  max-width: 250px;
+
 }
 
 .hp-2-meet-mova-header {
   /* align-self: stretch; */
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: flex-start;
   padding: 0 10px;
@@ -236,8 +248,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  min-width: 390px;
-  max-width: 1920px;
+  /* min-width: 390px;
+  max-width: 1920px; */
   text-align: left;
   font-size: 85px;
   color: var(--black);
