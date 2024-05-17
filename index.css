@@ -89,7 +89,7 @@
   justify-content: flex-start;
   padding: 0 10px;
   box-sizing: border-box;
-  gap: var(--gap-base);
+  /* gap: var(--gap-base); */
   min-width: 10px;
   max-width: 100%;
 
