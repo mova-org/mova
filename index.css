@@ -91,7 +91,7 @@
   box-sizing: border-box;
   gap: var(--gap-base);
   min-width: 10px;
-  max-width: 50%;
+  max-width: 100%;
 
 }
 .b1,
