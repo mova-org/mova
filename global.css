@@ -3,6 +3,7 @@ body {
   line-height: normal;
   background: #fcfcfc;
   overflow-x: hidden;
+  overflow-x:none;
   overflow-y: none;
 }
 
