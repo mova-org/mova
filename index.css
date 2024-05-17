@@ -91,7 +91,7 @@
   box-sizing: border-box;
   /* gap: var(--gap-base); */
   min-width: 10px;
-  max-width: 100%;
+  max-width: 90%;
 
 }
 .b1,
@@ -164,7 +164,7 @@
   justify-content: center;
   padding: var(--padding-mini);
   box-sizing: border-box;
-  min-width: 390px;
+  min-width: 290px;
   max-width: 570px;
 }
 .hp-2-blck,
