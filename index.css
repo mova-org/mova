@@ -35,28 +35,8 @@
 
 
 .b {
-  /* align-items: flex-end; */
-  /* flex-shrink: 0; */
-  /* position: relative; */
-  /* line-height: 120%; */
-  
-  /* display: block;
-  
-  width: auto;
-  height: auto; */
-
-  /* margin-right: 3%; */
   width: 60%; 
   height: auto; 
-/*   
-  margin-right: 20px;
-
-  max-width: 550px;
-  max-height: 100px;
-
-  min-width: 50%;
-  min-height: 100px; */
-
 }
 
 
