@@ -1,4 +1,7 @@
 
+@viewport {
+  width: device-width;
+  }
 
 #firstWind{
   display: flex;
@@ -34,8 +37,12 @@
 
 
 .b {
-  width: 60%; 
+  min-width: 160px;
+  max-width: 500px; 
   height: auto; 
+
+  /* font-size: 80px;
+  font-family: var(--font-rubik); */
 }
 
 
@@ -60,7 +67,7 @@
   box-sizing: border-box;
   gap: 15px;
   min-width: 10px;
-  max-width: 90%;
+  max-width: 80%;
 
 }
 .b1,
@@ -95,7 +102,7 @@
   align-self: stretch;
   flex-direction: row;
 }
-.hp-2-blck1 {
+.hp-2-blck1, #zlo {
   flex: 1;
   border-radius: var(--br-base);
   background-color: var(--color-silver);
