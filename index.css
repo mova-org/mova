@@ -268,7 +268,7 @@
   padding-left: 0px; 
   list-style-type: none; 
   color:black; 
-  font-size: 26px; 
+  font-size: 16px; 
   bottom: 10px;
 }
 
@@ -294,6 +294,7 @@ li{
   font-size: 16px;
   font-weight: 1;
   padding-right: 10px;
+  color: #a3a3a3;
   
 }
 
